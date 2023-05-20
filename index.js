@@ -15,6 +15,9 @@ document.addEventListener("DOMContentLoaded",()=>{
     const submit = document.querySelector("#inputs > button");
 
     submit.addEventListener("click",()=>{
-        
+        timerValues.sec = +secInp.value;
+        timerValues.min = +minInp.value;
+        timerValues.hour = +hourInp.value;
+        isTiemrOn = true;
     })
 })
